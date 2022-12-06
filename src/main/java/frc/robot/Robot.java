@@ -146,16 +146,16 @@ public class Robot extends TimedRobot {
     SimVisionTarget target1 = 
         new SimVisionTarget(
             targetPose1,
-            2,
-            0.1,
-            0.1
+            2, // Height
+            0.1, // Width of target
+            0.1 // Length of target
         );
     SimVisionTarget target2 =
         new SimVisionTarget(
             targetPose2,
-            1.5,
-            0.1,
-            0.1
+            1.5, // Height
+            0.1, // Width of target
+            0.1 // Length of target
         );
 
     visionSystem.addSimVisionTarget(target1);
